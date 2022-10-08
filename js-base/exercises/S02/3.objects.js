@@ -13,9 +13,21 @@
 //// TODO:
 // here place your solution:
 
+const user = {
+    name: 'Justyna',
+    address: 'Warsaw',
+    password: 'qwerty123'
+}
 
+const rights = ['write', 'read']
+user['rights'] = rights
+//user.rights = rights
 
-
+console.log(user)
+console.log('name', user['name'])
+user['name'] = 'admin'
+// user.name = 'admin'
+console.log('name', user['name'])
 
 //// DONT MODIFY CODE BELOW!
 // Here You will find expected result of exercise
